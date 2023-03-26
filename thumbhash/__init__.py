@@ -4,7 +4,7 @@ from pathlib import Path
 from itertools import chain 
 
 try:
-    from PIL import Image
+    from PIL import Image, ImageOps
     has_pil = True
 except ImportError:
     has_pil = False
@@ -126,6 +126,8 @@ def image_to_thumb_hash(fp: str | bytes | Path) -> List[int]:
 
     img = img.convert('RGBA')
     img.thumbnail((100, 100))
+
+    img = ImageOps.exif_transpose(img)
 
     rgba_2d = list(img.getdata())
     
