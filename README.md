@@ -1,5 +1,4 @@
-<img src="https://img.shields.io/pypi/v/thumbhash-py">
-<img src="https://img.shields.io/github/license/justinforlenza/thumbhash-py">
+<img src="https://img.shields.io/pypi/v/thumbhash-py"> <img src="https://img.shields.io/github/license/justinforlenza/thumbhash-py">
 
 # thumbhash-py
 A Python port of the [thumbhash](https://github.com/evanw/thumbhash) encoder by [Evan Wallace](https://github.com/evanw)
