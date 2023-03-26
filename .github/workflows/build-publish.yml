@@ -17,7 +17,7 @@ jobs:
       run: python -m pip install --upgrade hatch
 
     - name: Build
-      run: python -m build
+      run: python -m hatch build
 
     - uses: actions/upload-artifact@v3
       with:
