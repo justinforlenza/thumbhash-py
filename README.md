@@ -1,3 +1,6 @@
+<img src="https://img.shields.io/pypi/v/thumbhash-py">
+<img src="https://img.shields.io/github/license/justinforlenza/thumbhash-py">
+
 # thumbhash-py
 A Python port of the [thumbhash](https://github.com/evanw/thumbhash) encoder by [Evan Wallace](https://github.com/evanw)
 
@@ -29,3 +32,6 @@ from thumbhash import image_to_thumb_hash
 
 thumb_hash = image_to_thumb_hash('image.jpg') # [86, 8, 10, 13, 128, 22, 234, 86, 111, 117, ...]
 ```
+
+## Features
+As of now this library only handles the conversion of images to hashes, not the reverse.
