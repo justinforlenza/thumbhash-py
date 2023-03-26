@@ -4,11 +4,11 @@ A Python port of the [thumbhash](https://github.com/evanw/thumbhash) encoder by 
 ## Installation
 Install thumbhash with pip
 ```sh
-pip install thumbhash
+pip install thumbhash-py
 ```
 Optionally install with pillow support:
 ```sh
-pip install thumbhash[pillow]
+pip install thumbhash-py[pillow]
 ```
 
 ## Usage

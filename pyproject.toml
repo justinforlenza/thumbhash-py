@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "thumbhash"
+name = "thumbhash-py"
 description = 'A very compact representation of an image placeholder'
 readme = "README.md"
 requires-python = ">=3.7"
@@ -33,9 +33,9 @@ pillow = [
 ]
 
 [project.urls]
-Documentation = "https://github.com/justinforlenza/thumbhash#readme"
-Issues = "https://github.com/justinforlenza/thumbhash/issues"
-Source = "https://github.com/justinforlenza/thumbhash"
+Documentation = "https://github.com/justinforlenza/thumbhash-py#readme"
+Issues = "https://github.com/justinforlenza/thumbhash-py/issues"
+Source = "https://github.com/justinforlenza/thumbhash-py"
 
 [tool.hatch.version]
 path = "thumbhash/__about__.py"
