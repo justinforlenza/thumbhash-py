@@ -1,4 +1,4 @@
-<img src="https://img.shields.io/pypi/v/thumbhash-py"> <img src="https://img.shields.io/github/license/justinforlenza/thumbhash-py">
+<img src="https://img.shields.io/pypi/v/thumbhash"> <img src="https://img.shields.io/github/license/justinforlenza/thumbhash-py">
 
 # thumbhash-py
 A Python port of the [thumbhash](https://github.com/evanw/thumbhash) encoder by [Evan Wallace](https://github.com/evanw)
@@ -6,11 +6,11 @@ A Python port of the [thumbhash](https://github.com/evanw/thumbhash) encoder by 
 ## Installation
 Install thumbhash with pip
 ```sh
-pip install thumbhash-py
+pip install thumbhash
 ```
 Optionally install with pillow support:
 ```sh
-pip install thumbhash-py[pillow]
+pip install thumbhash[pillow]
 ```
 
 ## Usage

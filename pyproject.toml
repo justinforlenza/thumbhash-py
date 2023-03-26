@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "thumbhash-py"
+name = "thumbhash"
 description = 'A very compact representation of an image placeholder'
 readme = "README.md"
 requires-python = ">=3.7"
